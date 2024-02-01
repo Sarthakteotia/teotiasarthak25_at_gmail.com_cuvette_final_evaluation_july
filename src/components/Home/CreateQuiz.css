@@ -1,0 +1,24 @@
+.radio {
+  color: aqua;
+}
+
+.logininput {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fafafa;
+  border: 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: 0.3s box-shadow;
+  width: 388px;
+}
+.logininput:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.radioBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

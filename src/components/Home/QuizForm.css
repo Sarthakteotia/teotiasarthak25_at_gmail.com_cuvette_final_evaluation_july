@@ -1,0 +1,116 @@
+/* QuizFormModal.css */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px !important;
+  min-width: 800px !important;
+  border-radius: 10px;
+  border: black !important;
+}
+
+.modal-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modal-label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.modal-select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.modal-button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: white !important ;
+  color: black !important ;
+}
+
+.modal-button:hover {
+  opacity: 0.9;
+}
+
+.modal-radio {
+  display: flex;
+}
+.question-tabs {
+  display: flex;
+  flex-direction: row; /* Change to row direction */
+  margin-bottom: 10px;
+}
+
+.question-tab.active {
+  background-color: white;
+  color: black;
+  /* border-color: #007bff; */
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question-tab {
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.question-tab.active {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  height: auto;
+  /* border-color: #007bff; */
+}
+
+.question-tab button {
+  position: absolute;
+  top: -14px;
+  right: -19px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 50px;
+  height: auto;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
